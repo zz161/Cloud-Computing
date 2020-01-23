@@ -1,0 +1,18 @@
+---
+title: "My First Post using Cloud9"
+date: 2020-01-23T20:31:24Z
+draft: false
+---
+
+I am in Cloud9 this is fun
+
+
+baseURL = "http://hugo-duke-alan.s3-website-us-east-1.amazonaws.com"
+languageCode = "en-us"
+title = "My New Hugo Sit via AWS Cloud9"
+theme = "ananke"
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "awsbucket"
+URL = "s3://hugo-duke-alan/?region=us-east-1" #your bucket here
